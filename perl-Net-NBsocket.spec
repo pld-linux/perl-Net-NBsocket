@@ -8,12 +8,12 @@
 Summary:	Net::NBsocket - Non-Blocking Sockets
 Summary(pl):	Net::NBsocket - nieblokuj±ce gniazda
 Name:		perl-Net-NBsocket
-Version:	0.12
-Release:	0.1
+Version:	0.13
+Release:	1
 License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	0021addaae07925d10ad4df25d21c0cf
+# Source0-md5:	cd3d2f2d7aa58cb315779e499ba12c8e
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
