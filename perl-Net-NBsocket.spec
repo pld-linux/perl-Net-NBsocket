@@ -6,7 +6,7 @@
 %define	pdir	Net
 %define	pnam	NBsocket
 Summary:	Net::NBsocket - Non-Blocking Sockets
-Summary(pl):	Net::NBsocket - nieblokuj±ce gniazda
+Summary(pl.UTF-8):   Net::NBsocket - nieblokujÄ…ce gniazda
 Name:		perl-Net-NBsocket
 Version:	0.13
 Release:	1
@@ -23,9 +23,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Net::NBsocket provides a wrapper for Socket to supply Non-Blocking
 sockets of various flavors.
 
-%description -l pl
-Net::NBsocket to pakiet obudowuj±cy Socket, aby udostêpniæ
-nieblokuj±ce gniazda ró¿nych rodzajów.
+%description -l pl.UTF-8
+Net::NBsocket to pakiet obudowujÄ…cy Socket, aby udostÄ™pniÄ‡
+nieblokujÄ…ce gniazda rÃ³Å¼nych rodzajÃ³w.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
