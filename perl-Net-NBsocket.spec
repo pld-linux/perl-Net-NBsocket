@@ -6,7 +6,7 @@
 %define	pdir	Net
 %define	pnam	NBsocket
 Summary:	Net::NBsocket - Non-Blocking Sockets
-Summary(pl.UTF-8):   Net::NBsocket - nieblokujące gniazda
+Summary(pl.UTF-8):	Net::NBsocket - nieblokujące gniazda
 Name:		perl-Net-NBsocket
 Version:	0.13
 Release:	1
