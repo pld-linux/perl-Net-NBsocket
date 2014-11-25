@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define	pdir	Net
 %define	pnam	NBsocket
+%include	/usr/lib/rpm/macros.perl
 Summary:	Net::NBsocket - Non-Blocking Sockets
 Summary(pl.UTF-8):	Net::NBsocket - nieblokujące gniazda
 Name:		perl-Net-NBsocket
@@ -14,6 +14,7 @@ License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	85653402f5cc087f15127d58275c9848
+URL:		http://search.cpan.org/dist/Net-NBsocket/
 BuildRequires:	perl-NetAddr-IP >= 4.049
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
