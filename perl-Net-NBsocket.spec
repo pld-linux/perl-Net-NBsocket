@@ -4,7 +4,6 @@
 
 %define	pdir	Net
 %define	pnam	NBsocket
-%include	/usr/lib/rpm/macros.perl
 Summary:	Net::NBsocket - Non-Blocking Sockets
 Summary(pl.UTF-8):	Net::NBsocket - nieblokujące gniazda
 Name:		perl-Net-NBsocket
